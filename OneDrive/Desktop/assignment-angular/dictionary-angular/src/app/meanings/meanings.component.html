@@ -1,0 +1,9 @@
+<div class="containermeanings" *ngFor="let meaning of meanings_array">
+  <h3>{{ meaning.partOfSpeech }}</h3>
+  <div class="definition" *ngFor="let definition of meaning.definitions">
+    <div>{{ definition.definition }}</div>
+    <div class="examples">
+      {{ definition.example }}
+    </div>
+  </div>
+</div>

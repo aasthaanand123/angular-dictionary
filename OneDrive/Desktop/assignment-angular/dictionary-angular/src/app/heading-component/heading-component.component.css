@@ -1,0 +1,21 @@
+.containerinput {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.042);
+  border-radius: 7px;
+  max-width: 90%;
+  margin: 15px auto;
+  padding: 20px 30px;
+}
+.meaningtext {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #56555e;
+}
+.wordtext {
+  font-size: 2rem;
+  font-weight: 700;
+}
+audio {
+  margin-top: 2%;
+  width: 100%;
+}

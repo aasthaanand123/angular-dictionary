@@ -1,0 +1,24 @@
+.containermeanings {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.042);
+  border-radius: 7px;
+  max-width: 90%;
+  margin: 15px auto;
+  padding: 20px 30px;
+}
+.definition {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.examples,
+.synonyms {
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: 300;
+  color: gray;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: purple;
+}

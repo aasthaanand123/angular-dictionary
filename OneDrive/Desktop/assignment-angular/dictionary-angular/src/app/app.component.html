@@ -1,0 +1,18 @@
+<div class="app-container">
+  <div class="img-main">
+    <img src="../assets/bookimg.png" alt="" />
+  </div>
+  <app-input-box (sendRequest)="handleRequest($event)"></app-input-box>
+  <div *ngIf="word_array.length > 0; else noshow">
+    <app-heading-component
+      [word]="word_array[0].word"
+      [phonetic]="word_array[0].phonetic"
+      [audiosrc]="word_array[0].phonetics[0]?.audio"
+    ></app-heading-component>
+    <app-meanings [meanings_array]="word_array[0].meanings"></app-meanings>
+  </div>
+
+  <ng-template #noshow>
+    <div>No information available!</div>
+  </ng-template>
+</div>

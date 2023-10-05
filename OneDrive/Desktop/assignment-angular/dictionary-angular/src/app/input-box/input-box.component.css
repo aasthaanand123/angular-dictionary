@@ -1,0 +1,73 @@
+.containerinput {
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.042);
+  border-radius: 7px;
+  max-width: 90%;
+  margin: 15px auto;
+  padding: 20px 30px;
+}
+.formdiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0px;
+}
+.inputdiv {
+  width: 73%;
+  position: relative;
+}
+input,
+button {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #d2bce1;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 200ms color;
+}
+button:hover {
+  background-color: #fff;
+  border-color: #d2bce1;
+  color: #d2bce1;
+}
+input {
+  transition: 200ms;
+}
+input:focus {
+  border-color: #007bff60;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.366);
+  outline: none;
+}
+.suggestions {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #56555e;
+}
+h2 {
+  color: #9353b2;
+  font-size: 2rem;
+  font-weight: 700;
+}
+input {
+  padding-right: 30px;
+}
+button {
+  width: 22%;
+}
+@media (max-width: 767px) {
+  .formdiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputdiv {
+    width: 100%;
+  }
+  button {
+    margin-top: 4px;
+    width: 100%;
+  }
+}
